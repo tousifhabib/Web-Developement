@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Specificity and cascade</title>
+    <style type="text/css">
+    body {
+        color: red;
+    }
+    ul {
+        color: purple;
+    }
+    .highlights {
+        color: yellow;
+    }
+    #special {
+        color:teal;
+    }
+    </style>
+</head>
+<body>
+    <p>Sample text</p>
+    <ul>
+        <li class="highlights">John</li>
+        <li id="special">Max</li>
+        <li class="highlights">Ali</li>
+        <li>Ludwig</li>
+    </ul>
+</body>
+</html>

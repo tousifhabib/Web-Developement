@@ -1,0 +1,60 @@
+body {
+    background: url(NINTCHDBPICT0004185308441.jpg);
+    background-size: cover;
+    background-position: 50% 55%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+hr.style18 { 
+    width: 75%;
+    height: 30px; 
+    border-style: solid; 
+    border-color: white; 
+    border-width: 1.5px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr.style18:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1)
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #777;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3em;
+    font-weight: 500;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #777;
+    font-size: 1.2em;
+}

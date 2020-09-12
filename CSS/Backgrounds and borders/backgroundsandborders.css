@@ -1,0 +1,16 @@
+h1 {
+    color: rgba(0,200,100,0.8);
+    border-color: white;
+    border-width: 3px;
+    border-style: groove;
+}
+
+h4 {
+    background:rgb(255,100,80) ;
+}
+
+body {
+    background: url(https://s3-production.bobvila.com/articles/wp-content/uploads/2017/03/wood-grain1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
